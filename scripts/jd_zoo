@@ -789,7 +789,7 @@ function callbackResult(info) {
                 'Connection': `keep-alive`,
                 'Accept': `*/*`,
                 'Host': `api.m.jd.com`,
-                'User-Agent': "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.5(0x18000528) NetType/WIFI Language/zh_CN",
+                'User-Agent': "jdapp;iPhone;10.0.1;14.0;e0556a27cca752b19a23e3c27dc7b5c2bf893e0b;network/wifi;model/iPhone9,2;addressid/827915017;appBuild/167685;jdSupportDarkMode/0;Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1",
                 'Accept-Encoding': `gzip, deflate, br`,
                 'Accept-Language': `zh-cn`,
                 'Content-Type': 'application/x-www-form-urlencoded',
