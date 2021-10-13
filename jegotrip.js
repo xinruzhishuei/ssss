@@ -16,7 +16,7 @@ QuantumultX 脚本配置:
 **********************
 [task_local]
 # 无忧行签到
-0 9 * * * https://ooxx.be/js/jegotrip.js, tag=无忧行, img-url=https://ooxx.be/js/icon/jegotrip.png, enabled=true
+0 9 * * * https://raw.githubusercontent.com/xinruzhishuei/ssss/main/jegotrip.js, tag=无忧行, img-url=https://ooxx.be/js/icon/jegotrip.png, enabled=true
 
 [rewrite_local]
 # 获取无忧行Cookie
@@ -30,10 +30,10 @@ hostname= app*.jegotrip.com.cn, task.jegotrip.com.cn
 Surge 4.2.0+ 脚本配置:
 **********************
 [Script]
-无忧行签到 = type=cron,cronexp=0 9 * * *,script-path=https://ooxx.be/js/jegotrip.js
+无忧行签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/xinruzhishuei/ssss/main/jegotrip.js
 
-获取无忧行Cookie1 = type=http-response,pattern=https?:\/\/app.*\.jegotrip\.com\.cn\/.*getUser\?,script-path=https://ooxx.be/js/jegotrip.js, requires-body=true
-获取无忧行Cookie2 = type=http-response,pattern=https?:\/\/task\.jegotrip\.com\.cn\:8080\/app\/tasks\?userid,script-path=https://ooxx.be/js/jegotrip.js, requires-body=true
+获取无忧行Cookie1 = type=http-response,pattern=https?:\/\/app.*\.jegotrip\.com\.cn\/api\/service\/user\/v1\/getUser\?,script-path=https://raw.githubusercontent.com/xinruzhishuei/ssss/main/jegotrip.js, requires-body=true
+获取无忧行Cookie2 = type=http-response,script-path=https://raw.githubusercontent.com/xinruzhishuei/ssss/main/jegotrip.js,pattern=https?:\/\/task\.jegotrip\.com\.cn\:8080\/app\/tasks\?userid,max-size=131072,requires-body=true,timeout=10,enable=true
 
 [MITM] 
 hostname= app*.jegotrip.com.cn, task.jegotrip.com.cn
