@@ -149,7 +149,7 @@ $.shareCodesArr = [];
                                         console.log(`\n\n ${task.brandMemberVos[o].title}`)
                                         memberUrl = task.brandMemberVos[o].memberUrl
                                         memberUrl = transform(memberUrl)
-                                        if (i < 10) //限制开卡账号数目
+                                        if (i < 1) //限制开卡账号数目
                                             await join(task.brandMemberVos[o].vendorIds, memberUrl.channel, memberUrl.shopId ? memberUrl.shopId : "")
                                         await travel_collectScore(task.brandMemberVos[o].taskToken, task.taskId)
                                     }
