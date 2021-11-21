@@ -95,7 +95,7 @@ proxy-providers:
 
   Servers: #「机场」订阅
     type: http
-    url: "YYYYYYYYYY" # 放机场订阅链接
+    url: "http://www.gstatic.com/generate_204" # 放机场订阅链接
     interval: 3600
     path: ./Proxy/ZZZZZZZ.yaml # 注意此处文件名不可相同
     health-check:
