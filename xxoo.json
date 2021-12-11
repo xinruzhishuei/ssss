@@ -13,6 +13,15 @@
       "repo": "https://ooxx.be/js",
       "icons": ["https://ooxx.be/js/icon/jegotrip-trn.png","https://ooxx.be/js/icon/jegotrip.png"],
       "script": "https://ooxx.be/js/umer.js"
+    },
+    {
+      "id": "jegotripS1",
+      "name": "无忧行",
+      "keys": ["@无忧行.AsVow"],
+      "author": "@AsVow",
+      "repo": "https://ooxx.be/js",
+      "icons": ["https://ooxx.be/js/icon/jegotrip-trn.png", "https://ooxx.be/js/icon/jegotrip.png"],
+      "script": "https://ooxx.be/js/jegotrip.js"
     }
   ]
 }
