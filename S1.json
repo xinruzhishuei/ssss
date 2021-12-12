@@ -1,0 +1,18 @@
+{
+  "id": "asvow.app.sub",
+  "name": "AsVow应用订阅",
+  "author": "@AsVow",
+  "icon": "https://avatars.githubusercontent.com/u/88471740",
+  "repo": "https://ooxx.be/js",
+  "apps": [
+    {
+      "id": "jegotrip",
+      "name": "无忧行",
+      "keys": ["@无忧行.AsVow"],
+      "author": "@AsVow",
+      "repo": "https://ooxx.be/js",
+      "icons": ["https://ooxx.be/js/icon/jegotrip-trn.png", "https://ooxx.be/js/icon/jegotrip.png"],
+      "script": "https://ooxx.be/js/jegotrip.js"
+    }
+  ]
+}
