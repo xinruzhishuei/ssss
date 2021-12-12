@@ -6,8 +6,8 @@
   "repo": "https://ooxx.be/js",
   "apps": [
     {
-      "id": "jegotrip",
-      "name": "无忧行",
+      "id": "jegotripS1",
+      "name": "无忧行S1",
       "keys": ["@无忧行.AsVow"],
       "author": "@AsVow",
       "repo": "https://ooxx.be/js",
