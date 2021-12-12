@@ -1,18 +1,18 @@
 {
   "id": "asvow.app.sub",
-  "name": "AsVow应用订阅",
-  "author": "@AsVow",
+  "name": "无忧行S1",
+  "author": "无忧行S1",
   "icon": "https://avatars.githubusercontent.com/u/88471740",
-  "repo": "https://ooxx.be/js",
+  "repo": "https://github.com/xinruzhishuei/ssss",
   "apps": [
     {
       "id": "jegotripS1",
       "name": "无忧行S1",
       "keys": ["@无忧行.AsVow"],
       "author": "@AsVow",
-      "repo": "https://ooxx.be/js",
-      "icons": ["https://ooxx.be/js/icon/jegotrip-trn.png", "https://ooxx.be/js/icon/jegotrip.png"],
-      "script": "https://ooxx.be/js/jegotrip.js"
+      "repo": "https://github.com/xinruzhishuei/ssss",
+      "icons": ["https://img2.woyaogexing.com/2021/12/11/792d1326545549c3a8053a59b8e5344d!400x400.jpeg", "https://img2.woyaogexing.com/2021/12/11/792d1326545549c3a8053a59b8e5344d!400x400.jpeg"],
+      "script": "https://raw.githubusercontent.com/xinruzhishuei/ssss/main/jegotripS1.js"
     }
   ]
 }
