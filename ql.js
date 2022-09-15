@@ -3,9 +3,14 @@ const got = require('got');
 require('dotenv').config();
 
 //当前所在的环境
-let current_access={"access":"client_id=############&client_secret=############", "url":"http://192.168.0.1:5019"}
+let current_access={"access":"client_id=x9h5ha-Ow3rC&client_secret=s_-e6rMiN92--5gjqnklGGdk", "url":"http://nas.cjzsy.com:5700"}
+
+
 //远程服务器环境
-let remote_access={"access":"client_id=############&client_secret=############", "url":"http://192.168.0.1:5018"}
+let remote_access={"access":"client_id=scqpy_VsRmS9&client_secret=gRe36wkUdHIOE8eIBT5AvG_N", "url":"http://nas.cjzsy.com:5701"}
+
+
+
 
 const api = got.extend({prefixUrl: current_access.url,retry: { limit: 0 },});
 
@@ -64,7 +69,7 @@ module.exports.updateEnvRemote = async (cookie, eid, remarks) => {
         json: {
             name: 'JD_COOKIE',
             value: cookie,
-            _id: eid,
+            id: eid,
             remarks,
         },
         headers: {
@@ -234,3 +239,20 @@ module.exports.runCrons = async (id) => {
     return body;
 };
 
+//获取系统版本
+
+module.exports.sysVersion = async () => {
+    const token = await getRemoteToken();
+    const body = await remote_api({
+        method: 'get',
+        url: 'open/api/system',
+        params: { t: Date.now() },
+        //body: JSON.stringify([id]),
+        headers: {
+            Accept: 'application/json',
+            Cookie: `token=${token}`,
+            'Content-Type': 'application/json;charset=UTF-8',
+        },
+    }).json();
+    return body;
+};
