@@ -3,7 +3,8 @@ const {
     DisableCk,
     EnableCk,
     updateEnvRemote,
-    getRemoteEnvByPtPin
+    getRemoteEnvByPtPin,
+    sysVersion
 } = require('./ql');
 
 const $ = new Env('Cookie同步');
@@ -24,14 +25,15 @@ const $ = new Env('Cookie同步');
 
         //找到之后再同步过去
         if (remoteCK) {
+           // console.log("获取到远程容器的ck:"+JSON.stringify(remoteCK))
             //只更新20个
             if (i < 20) {
-                updateEnvRemote(envs[i].value, remoteCK._id, envs[i].remarks)
+                updateEnvRemote(envs[i].value, remoteCK.id, envs[i].remarks)
                 console.log("成功更新到远程容器的第" + (i + 1) + "个账号:" + envs[i].remarks)
                 console.log("等待三秒,再启用账号,防止太快启用失败")
                 await $.wait(3 * 1000)
                 console.log("开始启用账号:" + envs[i].remarks)
-                EnableCk(remoteCK._id)
+                EnableCk(remoteCK.id)
                 console.log("启用完成!")
             }
         }
