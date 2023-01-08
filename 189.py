@@ -7,8 +7,6 @@ import rsa
 
 #账号：手机号
 account = [
-    {"password": "", "phone": ""},
-    {"password": "", "phone": ""},
     {"password": "", "phone": ""}
 ]
 
