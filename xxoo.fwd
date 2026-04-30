@@ -1,0 +1,115 @@
+{
+  "title": "𝕏𝕚𝕪𝕦𝕝𝕚𝕦'𝕤𝕖𝕩 𝕎𝕚𝕕𝕘𝕖𝕥𝕤",
+  "description": "汇集网页模块",
+  "icon": "https://raw.githubusercontent.com/xiyuliu509/xiyuliu-forward/refs/heads/master/ForwardSex.png",
+  "widgets": [
+    {
+      "id": "jable",
+      "title": "Jable",
+      "description": "获取Jable全站视频",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.1",
+      "author": "𝕏𝕚𝕪𝕦𝕝𝕚𝕦",
+      "url": "https://raw.githubusercontent.com/lu791758-hub/fw11111/refs/heads/master/ForwardWidgets/Eden/Jable%202.js"
+    },
+{
+      "id": "MissAV_ovo",
+      "title": "MissAV_ovo",
+      "description": "获取 MissAV_ovo",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.1",
+      "author": "𝕏𝕚𝕪𝕦𝕝𝕚𝕦",
+      "url": "https://raw.githubusercontent.com/lu791758-hub/fw11111/refs/heads/master/ForwardWidgets/Eden/MissAV_ovo.js"
+    },
+{
+      "id": "XVideos ",
+      "title": "XVideos ",
+      "description": "获取 XVideos ",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.1",
+      "author": "𝕏𝕚𝕪𝕦𝕝𝕚𝕦",
+      "url": "https://raw.githubusercontent.com/lu791758-hub/fw11111/refs/heads/master/ForwardWidgets/Eden/XVideos%20(1).js"
+    },
+{
+      "id": "MissAV",
+      "title": "MissAV",
+      "description": "获取 MissAV",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.1",
+      "author": "𝕏𝕚𝕪𝕦𝕝𝕚𝕦",
+      "url": "https://raw.githubusercontent.com/lu791758-hub/fw11111/refs/heads/master/ForwardWidgets/Eden/MissAV.js"
+    },
+{
+      "id": "Hanime1修复",
+      "title": "Hanime1修复",
+      "description": "获取 Hanime1修复",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.1",
+      "author": "𝕏𝕚𝕪𝕦𝕝𝕚𝕦",
+      "url": "https://raw.githubusercontent.com/lu791758-hub/fw11111/refs/heads/master/ForwardWidgets/Eden/Hanime2.js"
+    },
+    {
+      "id": "hanime",
+      "title": "hanime",
+      "description": "获取 hanime 视频",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.1",
+      "author": "𝕏𝕚𝕪𝕦𝕝𝕚𝕦",
+      "url": "https://raw.githubusercontent.com/lu791758-hub/fw11111/refs/heads/master/ForwardWidgets/Eden/Hanime1.js"
+    },
+    {
+      "id": "Pornhub",
+      "title": "Pornhub",
+      "description": "在线观看Pornhub",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.4",
+      "author": "𝕏𝕚𝕪𝕦𝕝𝕚𝕦",
+      "url": "https://raw.githubusercontent.com/lu791758-hub/fw11111/refs/heads/master/ForwardWidgets/Eden/Pornhub.js"
+    },
+    {
+      "id": "javday",
+      "title": "JAVDay",
+      "description": "获取 JAVDay 推荐",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.1",
+      "author": "𝕏𝕚𝕪𝕦𝕝𝕚𝕦",
+      "url": "https://raw.githubusercontent.com/lu791758-hub/fw11111/refs/heads/master/ForwardWidgets/Eden/JAVDay.js"
+    },
+{
+      "id": "91Porn",
+      "title": "91Porn",
+      "description": "获取 91Porn",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.1",
+      "author": "𝕏𝕚𝕪𝕦𝕝𝕚𝕦",
+      "url": "https://raw.githubusercontent.com/lu791758-hub/fw11111/refs/heads/master/ForwardWidgets/Eden/91Porn.js"
+    },
+{
+      "id": "91Porny",
+      "title": "91Porny",
+      "description": "获取 91Porny",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.1",
+      "author": "𝕏𝕚𝕪𝕦𝕝𝕚𝕦",
+      "url": "https://raw.githubusercontent.com/lu791758-hub/fw11111/refs/heads/master/ForwardWidgets/Eden/91Porny.js"
+    },
+{
+      "id": "Bitch Lives",
+      "title": "Bitch Lives",
+      "description": "Bitch Lives",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.1",
+      "author": "𝕏𝕚𝕪𝕦𝕝𝕚𝕦",
+      "url": "https://raw.githubusercontent.com/lu791758-hub/fw11111/refs/heads/master/ForwardWidgets/Eden/Bitch%20Lives.js"
+    },
+    {
+      "id": "JAVDay_ovo",
+      "title": "JAVDay_ovo",
+      "description": "获取 JAVDay_ovo推荐",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.1",
+      "author": "𝕏𝕚𝕪𝕦𝕝𝕚𝕦",
+      "url": "https://raw.githubusercontent.com/lu791758-hub/fw11111/refs/heads/master/ForwardWidgets/Eden/JAVDay_ovo.js"
+    }
+  ]
+}
